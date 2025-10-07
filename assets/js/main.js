@@ -17,10 +17,8 @@ TOOLS:
     if(i % 3 === 0 && i % 5 === 0){
       // 1.2.1 Se lo è, stampo la scritta FizzBuzz
       console.log("FizzBuzz");      
+    } else if(i % 3 === 0){ // 1.3 Altrimenti controllo se il numero è divisibile per 3
+      // 1.3.1 Se lo è, stampo Fizz
+      console.log("Fizz");
     }
-  // 1.3 Altrimenti controllo se il numero è divisibile per 3
-    // 1.3.1 Se lo è, stampo Fizz
-  // 1.4 Altrimenti controllo se il numero è divisibile per 5
-    // 1.4.1 Se lo è, stampo Buzz
   }
-  // 1.5 Altrimenti stampo i numeri che non rispecchiano le condizioni
