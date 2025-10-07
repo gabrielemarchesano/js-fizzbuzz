@@ -8,14 +8,16 @@ TOOLS:
 - if/else-if/else
 - for
 - operatori di relazione e logici
-
-1. Scrivi un un programma che stampi i numeri da 1 a 100
-  1.1 Creo un ciclo for che parta da 1 e arrivi fino a 100 
-  1.2 Controllo se il numero è un multiplo sia di 3 sia di 5
-    1.2.1 Se lo è, stampo la scritta FizzBuzz
-  1.3 Altrimenti controllo se il numero è divisibile per 3
-    1.3.1 Se lo è, stampo Fizz
-  1.4 Altrimenti controllo se il numero è divisibile per 5
-    1.4.1 Se lo è, stampo Buzz
-  1.5 Altrimenti stampo i numeri che non rispecchiano le condizioni
 */
+
+// 1. Scrivi un un programma che stampi i numeri da 1 a 100
+  // 1.1 Creo un ciclo for che parta da 1 e arrivi fino a 100 
+  for(let i = 1; i <= 100; i++){
+  // 1.2 Controllo se il numero è un multiplo sia di 3 sia di 5
+    // 1.2.1 Se lo è, stampo la scritta FizzBuzz
+  // 1.3 Altrimenti controllo se il numero è divisibile per 3
+    // 1.3.1 Se lo è, stampo Fizz
+  // 1.4 Altrimenti controllo se il numero è divisibile per 5
+    // 1.4.1 Se lo è, stampo Buzz
+  }
+  // 1.5 Altrimenti stampo i numeri che non rispecchiano le condizioni
