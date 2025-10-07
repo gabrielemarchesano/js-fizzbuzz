@@ -20,5 +20,8 @@ TOOLS:
     } else if(i % 3 === 0){ // 1.3 Altrimenti controllo se il numero è divisibile per 3
       // 1.3.1 Se lo è, stampo Fizz
       console.log("Fizz");
-    }
+    } else if(i % 5 === 0){ // 1.4 Altrimenti controllo se il numero è divisibile per 5
+      // 1.4.1 Se lo è, stampo Buzz
+      console.log("Buzz");      
+    } 
   }
