@@ -23,5 +23,7 @@ TOOLS:
     } else if(i % 5 === 0){ // 1.4 Altrimenti controllo se il numero è divisibile per 5
       // 1.4.1 Se lo è, stampo Buzz
       console.log("Buzz");      
-    } 
+    } else{ // 1.5 Altrimenti stampo i numeri che non rispecchiano le condizioni
+      console.log(i);      
+    }
   }
